@@ -14,4 +14,10 @@
 
 - As opções de ALT+Enter e Shift+F6 ajudam muito a refatorar. Inclusive pode-se colocar traduções para outro idioma. Consegui fazer o string.xml em PT-Br dessa forma.
 
-- Inclui o plugin kotlin-parcelize e o viewBinding no build.gradle. Inclui também o @Parcelize no domain/Correntista
+- Inclui o plugin kotlin-parcelize e o viewBinding no build.gradle. Inclui também o @Parcelize no domain/Correntista.
+
+- A parte 2 começou com a formatação do layout do app copiando o código do gist do professor. Eu comentei as partes que foram substituídas.
+
+- Para colocar itens na pasta drawable, criar uma nova 'Vector Asset'. Pode-se criar ícones assim.
+
+- O termo TODO faz aparecer no rodapé no Android Studio uma aba com o mesmo nome contendo os itens que devem ser feitos/completados posteriormente no código. Qualquer coisa marcada como TODO deve ser implementada/corrigida posteriormente.
