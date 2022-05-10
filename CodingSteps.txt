@@ -1,0 +1,17 @@
+- Após a criação do projeto no Android Studio, criamos o pacote domain. Nesse pacote criamos as classes (Data Class) Correntista, Movimentacao e TipoMovimentacao. Essas Data Classes já criam os getters e setters automaticamente.
+
+- A classe Movimentacao foi preenchida conforme os dados do BD. A data/hora foi criada como String.
+
+- Criação do pacote ui, para as telas do app. Statemente é a tela do extrato que será exibida.
+
+-Renomear a MainActivity para WelcomeActivity e mover para o pacote welcome.
+
+- No AndroidManifest.xml definimos a tela principal (activity) com o intent-filter. A segunda tela colocamos como tela 'filha', que faz ela voltar pra tela welcome. Pra isso colocamos o parentActivityName.
+
+- O professor passou a fazer o layout da tela no activity_welcome.xml. É praticamente arrastando e colando itens e formatando do jeito que quiser. Selecionar a aba 'Design' e escolher as opções na aba lateral 'Attributes'.
+
+- Depois de colocar os itens na tela, ir na aba 'Code' para padronizar alguns elementos, como os nomes/ids dos itens. Pode-se apertar o Shift+F6 (Rename) para renomear os itens.
+
+- As opções de ALT+Enter e Shift+F6 ajudam muito a refatorar. Inclusive pode-se colocar traduções para outro idioma. Consegui fazer o string.xml em PT-Br dessa forma.
+
+- Inclui o plugin kotlin-parcelize e o viewBinding no build.gradle. Inclui também o @Parcelize no domain/Correntista
